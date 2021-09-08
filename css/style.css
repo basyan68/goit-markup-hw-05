@@ -623,7 +623,7 @@ img {
     transform: translate(-50%, -50%);
     min-width: 528px;
     min-height: 581px;
-    background-color: #FFFFFF;
+    background-color: var(--title-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
@@ -635,8 +635,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8px;
-    margin-left: 490px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
 }
 .modal-svg-button{
     border: none;
