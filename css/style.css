@@ -669,7 +669,7 @@ img {
     pointer-events: none;
 }
 .backdrop.backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(0.7);
 }
 .modal {
     position: absolute;
@@ -699,4 +699,6 @@ img {
 .modal-svg-button{
     border: none;
     background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
 }
